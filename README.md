@@ -18,5 +18,5 @@ Arduino
 Plans
 - because of 2/3 way switch in the house, and decision to leave them and not replace with smart touch switches, i need to add 2 relays to control 4 way switch (original 2 + remote).
 - learn IR codes of A/C, TVs, ... and use it with IR transmits on the sensor node.
-- expand the MQTT network with Sonoff devices that require to hack the ESP8266 board on the sonoff and then connect it to MQTT based on http subscription/publish. using either SuperHouse video or others alike.
+- expand the MQTT network with Sonoff devices that require to hack the ESP8266 board on the sonoff and then connect it to MQTT based on http subscription/publish. using either SuperHouse video or others https://github.com/mgaman/Sonoff-modified.
 - how will IP camera will interact with the openhab and MQTT network?
