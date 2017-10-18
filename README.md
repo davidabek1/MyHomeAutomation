@@ -8,8 +8,9 @@ major steps i faced along the way:
 - install OpenHab2 (needed to change from OpenHab1 approach and implement it)
 - use abouillot code for PiGateway (found a bug and fixed it)
 - use Mosquitto MQTT broker on the Pi
-- use RFM modules for the 433Mhz transmissions - as Uber states strong long distance support
-Arduino
+- use RFM modules for the 433Mhz transmissions - as Uber states strong long distance support Arduino  
+<b>RFM hookup guide</b> - a very good explanation of how to use the radio card, and hook it up to arduino,  
+is on this page:https://learn.sparkfun.com/tutorials/rfm69hcw-hookup-guide
 - use Arduino Pro Mini 3.3v instead of Arduino Uno Clone 3.3v version
 - Update PIR notifications based on "on change" events to OpenHab2, plus time proxy to update "no movement".
 - update Temperature sensor using DS18B20 instead of DHT (using OneWire.h instead of DHT.h)
